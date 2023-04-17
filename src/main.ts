@@ -6,6 +6,8 @@ import '@/assets/styles/iconfont.less'
 
 import { Tab, Tabs } from 'vant'
 
+import '@/mock/index'
+
 const app = createApp(App)
 // 注册 Vant 组件
 app.use(Tab)
