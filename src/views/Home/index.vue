@@ -1,4 +1,7 @@
 <template>
-  <h1>bilibili 主页</h1>
-  <router-link to="/video/1">点我去视频详情页</router-link>
+  <AppHeader />
 </template>
+
+<script setup lang="ts">
+import AppHeader from '@/components/app-header.vue'
+</script>
